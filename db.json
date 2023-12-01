@@ -1,0 +1,36 @@
+{
+    "paises": [
+        {   
+            "id": 1,
+            "nome": "Brasil",
+            "codigo_internacional_iso": "BRA",
+            "continente": "América do Sul",
+            "populacao": 2000000,
+            "data_criacao": "30/11/2023 22:00:00"
+        },
+        {
+            "id": 2,
+            "nome": "Argentina",
+            "codigo_internacional_iso": "ARG",
+            "continente": "América do Sul",
+            "populacao": 10000,
+            "data_criacao": "30/11/2023 22:00:00"
+        },
+        {
+            "id": 3,
+            "nome": "Bélgica",
+            "codigo_internacional_iso": "BEL",
+            "continente": "Europa Ocidental",
+            "populacao": 200000,
+            "data_criacao": "30/11/2023 22:00:00"
+        },
+        {
+            "id": 4,
+            "nome": "África",
+            "codigo_internacional_iso": "AFR",
+            "continente": "Africano",
+            "populacao": 500000,
+            "data_criacao": "30/11/2023 22:00:00"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+
+
+<h1>
+    <div class="titulo">Países</div>
+</h1>
+
+<div *ngIf="detalhePais != null" class="pais-detalhe-card">
+    <h3>Detalhes: {{detalhePais.nome}}</h3>
+    <div class="pais-detalhe">
+        <div>Código internacional: {{detalhePais.codigo_internacional_iso}}</div>
+        <div>Continente: {{detalhePais.continente}}</div>
+        <div>População: {{detalhePais.populacao}}</div>
+        <div>Data de criação: {{detalhePais.data_criacao}}</div>
+    </div>
+    <div class="fechar-detalhe" (click)="fecharDetalhe()">
+        Fechar
+    </div>
+</div>
+
+<div (click)="buscarDetalhe(pais.id)" class="pais-card" *ngFor="let pais of paises">
+    <div>{{pais.nome}}</div>
+    <div>{{pais.codigo_internacional_iso}}</div>
+</div>
+
+<router-outlet></router-outlet>
